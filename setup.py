@@ -4,7 +4,7 @@ setup(
     name="integrity-checker",
     version="0.1.0",
     description="Android SafetyNet & Play Integrity CLI checker",
-    author="qtphone.com",
+    author="Android Cloud Tools",
     url="https://github.com/luoshixin93-sudo/integrity-checker",
     packages=find_packages(),
     install_requires=[
