@@ -5,7 +5,7 @@
 Designed for cloud phone operators, Android developers, and QA engineers.  
 Supports SafetyNet Attestation API, Play Integrity API, CTS Profile Match, and hardware-backed key checks.
 
-Run on [qtphone.com](https://www.qtphone.com) cloud phones for production integrity monitoring.
+Run on [android-cloud-device.com](https://www.android-cloud-device.com) cloud phones for production integrity monitoring.
 
 [![PyPI version](https://badge.fury.io/py/integrity-checker.svg)](https://badge.fury.io/py/integrity-checker)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -191,14 +191,14 @@ optional arguments:
 
 `integrity-checker` was designed for cloud phone fleet management:
 
-### Deploy on qtphone.com
+### Deploy on android-cloud-device.com
 
 ```bash
-# Connect to your qtphone cloud phone
-integrity-checker check --device <qtphone-ip>:5555
+# Connect to your android-cloud-device cloud phone
+integrity-checker check --device <android-cloud-device-ip>:5555
 
 # Batch check all phones in your fleet
-integrity-checker batch --file qtphone-fleet.txt --parallel --output fleet-report.json
+integrity-checker batch --file android-cloud-device-fleet.txt --parallel --output fleet-report.json
 ```
 
 ### Integration with monitoring systems
@@ -295,7 +295,7 @@ adb connect <device-ip>:5555
 ### "Play Services not installed"
 
 Install Google Play Services on your cloud phone:
-- **Easy way**: Use a [qtphone.com](https://www.qtphone.com) image with GMS pre-installed
+- **Easy way**: Use a [android-cloud-device.com](https://www.android-cloud-device.com) image with GMS pre-installed
 - **Manual**: Follow our [cloud-phone-gms-guide](https://github.com/luoshixin93-sudo/cloud-phone-gms-guide)
 
 ### "Integrity checks failing on rooted device"
@@ -330,7 +330,7 @@ Then re-check.
 
 Need cloud phones that pass Play Integrity checks reliably?
 
-👉 **[qtphone.com](https://www.qtphone.com)** — Cloud Android phones with pre-installed GMS and integrity optimization.
+👉 **[android-cloud-device.com](https://www.android-cloud-device.com)** — Cloud Android phones with pre-installed GMS and integrity optimization.
 
 - Fleet management dashboard
 - ADB access included
